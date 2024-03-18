@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Моя Таблица</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>Десять крупнейших госконтрактов</h2>
+  <table style="width: 100%;">
+    <tr>
+      <th>Ссылка на контракт</th>
+      <th>Дата подписания</th>
+      <th>Номер региона</th>
+      <th>Номер контракта</th>
+      <th>Код региона</th>
+      <th>ИНН Заказчика</th>
+      <th>Название заказчика</th>
+      <th>Предмет закупки</th>
+    </tr>
+
+    {% for item in items %}
+    <tr>
+      <td>{{ item['url'] }}</td>
+      <td>{{ item['sign_date'] }}</td>
+      <td>{{ item['num_reg'] }}</td>
+      <td>{{ item['price'] }}</td>
+      <td>{{ item['region_code'] }}</td>
+      <td>{{ item['customer_inn'] }}</td>
+      <td>{{ item['customer_fullname'] }}</td>
+      <td>{{ item['products'] }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+
+</html>

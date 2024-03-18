@@ -1,0 +1,1335 @@
+2024-03-18 16:57:18,019 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 16:57:18,022 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 16:57:20,587 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 16:57:20,635 INFO get_contracts || <Response [200]>
+2024-03-18 16:57:20,669 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 16:57:20,669 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,670 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,670 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,671 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,671 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,671 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,671 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,671 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,672 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,672 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,672 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,672 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,673 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,673 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,673 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,673 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,674 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,674 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,674 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,674 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,675 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,675 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,675 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,676 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,676 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,676 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 16:57:20,676 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 16:57:20,677 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:50,896 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 19:17:51,376 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 19:17:51,848 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 19:17:51,897 INFO get_contracts || <Response [200]>
+2024-03-18 19:17:51,940 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 19:17:51,942 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,945 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,946 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,946 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,947 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,947 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,947 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,947 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,948 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,948 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,949 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,949 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,949 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,949 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,950 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,950 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,950 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,951 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,951 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,951 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,952 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,952 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,952 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,953 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,953 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,953 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:17:51,954 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:17:51,954 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,026 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 19:28:38,030 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 19:28:38,403 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 19:28:38,456 INFO get_contracts || <Response [200]>
+2024-03-18 19:28:38,488 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 19:28:38,489 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,489 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,490 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,490 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,491 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,491 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,491 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,491 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,492 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,492 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,492 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,492 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,493 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,493 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,493 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,493 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,493 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,494 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,494 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,494 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,494 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,494 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,495 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,495 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,495 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,495 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:28:38,496 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:28:38,496 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:30,899 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 19:29:30,903 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 19:29:30,997 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 19:29:31,048 INFO get_contracts || <Response [200]>
+2024-03-18 19:29:31,074 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 19:29:31,075 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,075 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,076 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,076 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,076 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,076 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,076 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,076 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,077 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,077 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,077 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,077 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,077 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,077 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,078 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,078 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,078 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,078 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,078 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,079 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,079 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,079 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,079 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,079 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,079 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,080 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:29:31,080 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:29:31,080 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,791 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 19:30:52,796 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 19:30:52,896 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 19:30:52,948 INFO get_contracts || <Response [200]>
+2024-03-18 19:30:52,982 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 19:30:52,983 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,983 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,984 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,984 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,985 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,985 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,985 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,985 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,986 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,986 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,986 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,986 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,987 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,987 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,987 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,987 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,988 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,988 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,988 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,988 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,989 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,989 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,989 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,989 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,989 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,990 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:30:52,990 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:30:52,990 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,200 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 19:44:48,205 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 19:44:48,445 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 19:44:48,497 INFO get_contracts || <Response [200]>
+2024-03-18 19:44:48,533 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 19:44:48,534 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,534 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,535 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,535 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,535 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,535 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,536 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,536 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,536 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,537 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,537 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,537 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,538 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,538 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,538 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,538 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,539 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,539 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,539 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,539 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,540 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,540 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,540 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,540 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,541 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,541 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:44:48,541 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:44:48,542 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,204 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 19:50:22,211 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 19:50:22,476 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 19:50:22,542 INFO get_contracts || <Response [200]>
+2024-03-18 19:50:22,606 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 19:50:22,607 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,607 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,614 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,615 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,615 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,615 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,616 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,616 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,616 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,616 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,617 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,617 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,617 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,617 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,624 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,624 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,625 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,625 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,625 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,625 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,625 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,626 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,626 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,626 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,635 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,635 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:50:22,636 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:50:22,636 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,489 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 19:51:02,496 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 19:51:02,586 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 19:51:02,636 INFO get_contracts || <Response [200]>
+2024-03-18 19:51:02,671 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 19:51:02,672 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,672 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,673 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,673 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,673 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,673 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,674 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,674 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,674 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,674 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,675 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,675 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,675 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,675 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,676 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,676 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,676 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,676 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,677 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,677 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,677 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,677 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,678 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,678 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,678 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,678 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:51:02,679 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:51:02,679 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,209 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 19:52:00,215 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 19:52:00,316 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 19:52:00,389 INFO get_contracts || <Response [200]>
+2024-03-18 19:52:00,422 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 19:52:00,423 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,423 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,424 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,425 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,427 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,428 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,428 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,428 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,429 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,429 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,430 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,430 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,430 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,430 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,431 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,431 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,431 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,432 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,432 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,432 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,432 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,433 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,433 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,434 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,434 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,434 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:00,435 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:00,435 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,005 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 19:52:11,009 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 19:52:11,105 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 19:52:11,154 INFO get_contracts || <Response [200]>
+2024-03-18 19:52:11,192 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 19:52:11,193 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,193 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,194 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,194 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,194 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,194 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,195 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,195 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,195 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,195 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,196 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,196 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,196 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,196 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,197 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,197 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,197 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,197 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,198 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,198 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,198 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,198 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,199 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,199 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,199 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,199 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:52:11,200 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:52:11,200 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,373 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 19:53:54,378 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 19:53:54,599 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 19:53:54,660 INFO get_contracts || <Response [200]>
+2024-03-18 19:53:54,695 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 19:53:54,696 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,696 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,697 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,697 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,698 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,698 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,698 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,698 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,699 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,699 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,699 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,699 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,700 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,700 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,700 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,700 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,700 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,701 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,701 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,701 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,701 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,702 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,702 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,702 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,702 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,702 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 19:53:54,703 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 19:53:54,703 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/main.py", line 57, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,700 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 20:00:43,702 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 20:00:43,869 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 20:00:43,957 INFO get_contracts || <Response [200]>
+2024-03-18 20:00:43,975 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 20:00:43,975 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,976 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,976 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,976 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,976 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,976 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,976 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,976 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,977 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,977 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,977 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,977 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,977 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,977 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,977 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,977 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,977 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,977 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,978 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,978 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,978 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,978 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,978 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,978 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,978 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,978 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:00:43,979 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:00:43,979 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,385 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 20:05:33,388 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 20:05:33,482 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 20:05:33,527 INFO get_contracts || <Response [200]>
+2024-03-18 20:05:33,542 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 20:05:33,542 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,542 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,543 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,543 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,543 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,543 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,543 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,544 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,544 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,544 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,544 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,544 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,544 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,544 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,545 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,545 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,545 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,545 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,545 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,545 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,545 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,546 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,546 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,546 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,546 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,546 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:05:33,547 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:05:33,547 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,586 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 20:06:15,588 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 20:06:15,736 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 20:06:15,781 INFO get_contracts || <Response [200]>
+2024-03-18 20:06:15,812 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 20:06:15,813 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,814 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,814 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,815 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,815 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,815 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,816 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,816 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,816 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,816 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,817 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,817 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,817 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,818 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,818 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,818 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,819 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,819 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,819 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,819 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,820 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,820 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,820 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,821 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,821 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,821 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:15,822 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:15,822 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:48,898 INFO get_contracts || Началось выполнение функции get_contactshttp://openapi.clearspending.ru/restapi/v3/contracts/search/
+2024-03-18 20:06:48,900 DEBUG _new_conn || Starting new HTTP connection (1): openapi.clearspending.ru:80
+2024-03-18 20:06:48,989 DEBUG _make_request || http://openapi.clearspending.ru:80 "GET /restapi/v3/contracts/search/?daterange=11.03.2024-18.03.2024&sort=-price HTTP/1.1" 200 None
+2024-03-18 20:06:49,084 INFO get_contracts || <Response [200]>
+2024-03-18 20:06:49,102 INFO get_contracts || Операция преобразования в json успешна
+2024-03-18 20:06:49,103 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,103 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,103 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,103 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,103 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,103 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,103 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,103 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,104 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,104 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,104 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,104 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,104 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,104 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,104 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,104 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,104 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,105 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,105 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,105 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,105 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,105 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,105 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,105 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,105 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,105 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
+2024-03-18 20:06:49,106 ERROR get_top_contracts || Ошибка взятия информации из json
+2024-03-18 20:06:49,106 ERROR get_top_contracts || 'scan'
+Traceback (most recent call last):
+  File "/home/kirill/goscontracts/contracts.py", line 50, in get_top_contracts
+    urls = [recurse_find_key('url', item) for item in contract['scan']]
+KeyError: 'scan'
